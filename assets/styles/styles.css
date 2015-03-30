@@ -1,0 +1,94 @@
+@import url(bootstrap.min.css);
+
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.col-xs-5ths {
+    width: 20%;
+    float: left;
+}
+
+@media (min-width: 768px) {
+    .col-sm-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .col-md-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-lg-5ths {
+        width: 20%;
+        float: left;
+    }
+}
+
+.header {
+  height: 90px;
+  width: 100%;
+  padding: 0;
+  margin: none;
+  margin-bottom: 30px;
+}
+
+.header img {
+  margin: 30px 0;
+  height: 100%;
+  max-width: 90%;
+  padding: 0 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row.gray {
+	width: 100%;
+	background-color: #EEE;
+	margin-bottom: 50px;
+	padding: 10px 15%;
+	border-bottom: 1px solid black;
+}
+
+.row {
+	width: 70%;
+	margin: 0 auto 20px auto;
+	/*min-width: 1000px;*/
+}
+
+
+.row p.info {
+	line-height: 25px;
+	font-size: 18px;
+}
+
+.row .col-sm-4 {
+	background-color: white
+}
+
+.row .col-sm-4 h1 {
+	text-align: center;
+}
+
+.row .col-sm-4 p {
+	font-size: 20px;
+	text-align: left;
+}
+
+.row .col-sm-4 img {
+	max-height: 500px;
+	display: block;
+	margin: 0 auto;
+}
